@@ -14,8 +14,6 @@ import Users from './Users.js'
 
 function App() {
 
-  // const [users, setUsers] = useState(usersJSON)
-
   return (
     <Router>
       <Switch>

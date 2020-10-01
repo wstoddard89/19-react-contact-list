@@ -21,7 +21,7 @@ function Home() {
             <Link to={`/userInfo/${item.id}`} key={item.id}>
             <li key={item.id}>
               <img src={item.picture.thumbnail}></img>
-              {item.name.first} {item.name.last}</li>
+              {item.name.first.charAt(0).toUpperCase() + item.name.first.slice(1)} {item.name.last.charAt(0).toUpperCase() + item.name.last.slice(1)}</li>
               </Link>
           ))}
         </ul>

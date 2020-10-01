@@ -34,6 +34,11 @@ body {
   align-items: center;
   color: #444444;
   font-weight: 500;
+  text-decoration: none;
+}
+
+.userList a {
+  text-decoration: none;
 }
 
 .userList img {
@@ -55,10 +60,18 @@ body {
   justify-content: center;
   align-items: center;
   background: #AFCE80;
+  position: relative;
 }
 
 .userImage img {
   border-radius: 50%;
+}
+
+#arrow {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  color: black;
 }
 
 .userInfo {
@@ -68,4 +81,8 @@ body {
 .userInfo h5 {
   padding: 20px;
   border-bottom: 1px solid #EBEBEB;
+}
+
+h5 i {
+  margin-right: 10px;
 }

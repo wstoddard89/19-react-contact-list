@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.listContainer {
+  width: 30%;
+  border: solid 1px #EBEBEB;
+  margin:auto;
+}
+
+.myPeeps {
+  padding: 10px;
+  border-bottom: solid 2px #80A448;
+  background: #8EB94F;
+  color: white;
+}
+
+.userList {
+  display: flex;
+  flex-direction: column;
+  
+}
+.userList li {
+  list-style: none;
+  border-bottom: 1px solid #EBEBEB;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  color: #444444;
+  font-weight: 500;
+}
+
+.userList img {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* USER INFO PAGES */
+.eachUserDiv {
+  width: 30%;
+  margin: auto;
+  height: 500px;
+  border: solid 1px #D8DADC;
+}
+
+.userImage {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #AFCE80;
+}
+
+.userImage img {
+  border-radius: 50%;
+}
+
+.userInfo {
+  height: 50%;
+}
+
+.userInfo h5 {
+  padding: 20px;
+  border-bottom: 1px solid #EBEBEB;
+}
